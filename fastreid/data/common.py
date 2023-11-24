@@ -78,8 +78,8 @@ class CommDataset(Dataset):
         camid = img_item[2]
         img = read_image(img_path)
         if self.transform is not None: img = self.transform(img)
-        # mask_path=img_path.replace('/mnt/hdd1/liyuke','/home/nihao/wr/gaussresult').replace('/home/liyuke/data','/home/nihao/wr/gaussresult').split('.')[0]+'.pth'
-        mask_path=img_path.replace('/ai/HAG/nihao/datasets','/ai/HAG/nihao/gaussresult').split('.')[0]+'.pth'
+        # mask_path=img_path.replace('/mnt/hdd1/wangwu','/home/zhangsan/lisi/gaussresult').replace('/home/wangwu/data','/home/zhangsan/lisi/gaussresult').split('.')[0]+'.pth'
+        mask_path=img_path.replace('/ai/GROUP/zhangsan/datasets','/ai/GROUP/zhangsan/gaussresult').split('.')[0]+'.pth'
         # mask=Image.open(mask_path)
         # mask=mask.resize((img.shape[2],img.shape[1]))
         # mask=np.array(mask)

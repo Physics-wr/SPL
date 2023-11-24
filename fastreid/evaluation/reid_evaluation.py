@@ -112,7 +112,7 @@ class ReidEvaluator(DatasetEvaluator):
         #     dataset=dataset,
         #     )
         # vis.get_model_output(all_AP, dist, query_pids, gallery_pids, query_camids, gallery_camids)
-        # vis.vis_rank_list(output='/ai/HAG/nihao/domainReid02/vis', vis_label=False, max_rank=25)
+        # vis.vis_rank_list(output='/ai/GROUP/zhangsan/domainReid02/vis', vis_label=False, max_rank=25)
         
         
         mAP = np.mean(all_AP)

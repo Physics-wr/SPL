@@ -1,6 +1,6 @@
 MODEL:
   META_ARCHITECTURE: Baseline
-  WEIGHTS: None #/ai/HAG/nihao/domainReid02/logs/A/model_best.pth
+  WEIGHTS: None #/ai/GROUP/zhangsan/domainReid02/logs/A/model_best.pth
   FREEZE_LAYERS: []
 
   BACKBONE:
@@ -13,7 +13,7 @@ MODEL:
     PRETRAIN: True
     POINT_PROMPT: True
     BOX_PROMPT: False
-    PRETRAIN_PATH: /ai/HAG/nihao/sam_vit_b_01ec64.pth
+    PRETRAIN_PATH: /ai/GROUP/zhangsan/sam_vit_b_01ec64.pth
     LAYER_FILTER: [0,1,2,3]
     WEIGHT_LAMBDA: 1.0
 
